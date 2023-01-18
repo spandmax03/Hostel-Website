@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    padding: 30px;
+
+}
+
+.logo {
+    text-align: center;
+}
+
+.images img {
+    height: 450px;
+    width: 100%;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+p{
+    background-color: blanchedalmond;
+}
+
+.content-col img {
+    height: 200px;
+    width: 250px
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.content-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding:20px 12px;
+    box-sizing:border-box
+}
